@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFinalProyectDAM", "APIFinalProyectDAM\APIFinalProyectDAM.csproj", "{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE69858A-AB3B-4862-BEE8-35CDDDC999EA}
+	EndGlobalSection
+EndGlobal
