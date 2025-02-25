@@ -109,6 +109,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "APIFinalProyectDAM.Controllers.UsuariosController",
+    "Method": "Login",
+    "RelativePath": "api/Usuarios/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "APIFinalProyectDAM.Controllers.UsuariosController\u002BUserData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "APIFinalProyectDAM.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using APIFinalProyectDAM.MODELS;  // Asegúrate de importar el modelo de tu clase Usuario
+using APIFinalProyectDAM.MODELS;  // Importa el modelo de Usuario
 
 namespace APIFinalProyectDAM.DATA
 {
@@ -8,28 +8,48 @@ namespace APIFinalProyectDAM.DATA
         // Constructor que recibe las opciones de configuración (como la cadena de conexión)
         public ClDbContext(DbContextOptions<ClDbContext> options) : base(options) { }
 
-        // Aquí es donde defines las tablas a las que accederás en la base de datos
-        public DbSet<ClUsuarios> Usuarios { get; set; }  // Mapea tu clase Usuario a la tabla "Usuarios" en SQL Server
+        // Definición de la tabla "Usuarios"
+        public DbSet<ClUsuarios> Usuarios { get; set; }
 
-        // Si necesitas configurar más detalles de las tablas, lo puedes hacer en esta función
+        // Configuración detallada de las tablas
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // Aquí puedes agregar configuraciones si es necesario (como tamaños de columnas o restricciones)
-            modelBuilder.Entity<ClUsuarios>()
-                .Property(u => u.Nombre)
-                .HasMaxLength(100)  // Limita el tamaño de la columna "Nombre"
-                .IsRequired();      // Hace que "Nombre" no sea nulo
+            // Configuración de la tabla Usuarios
+            modelBuilder.Entity<ClUsuarios>(entity =>
+            {
+                entity.ToTable("Usuarios"); // Asegura que la tabla en la BD se llame "Usuarios"
 
-            modelBuilder.Entity<ClUsuarios>()
-                .Property(u => u.Correo)
-                .HasMaxLength(100)  // Limita el tamaño de la columna "Correo"
-                .IsRequired();      // Hace que "Correo" no sea nulo
+                entity.HasKey(u => u.IdUsuario); // Define la clave primaria
 
-            modelBuilder.Entity<ClUsuarios>()
-                .Property(u => u.Edad)
-                .IsRequired();      // Hace que "Edad" no sea nulo
+                entity.Property(u => u.Nombre)
+                      .HasMaxLength(100)
+                      .IsRequired();
+
+                entity.Property(u => u.Apellido)
+                      .HasMaxLength(100)
+                      .IsRequired();
+
+                entity.Property(u => u.Email)
+                      .HasMaxLength(150)
+                      .IsRequired();
+
+                entity.Property(u => u.Contrasena)
+                      .HasMaxLength(255)
+                      .IsRequired();
+
+                entity.Property(u => u.TipoUsuario)
+                      .HasMaxLength(50)
+                      .IsRequired()
+                      .HasDefaultValue("Usuario"); // Valor por defecto "Usuario"
+
+                entity.Property(u => u.FechaRegistro)
+                      .HasDefaultValueSql("GETDATE()"); // Valor por defecto la fecha actual
+
+                entity.Property(u => u.Estado)
+                      .HasDefaultValue(true); // Usuario activo por defecto
+            });
         }
     }
 }
