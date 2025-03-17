@@ -41,21 +41,32 @@ namespace APIFinalProyectDAM.Controllers
         }
 
         // POST: api/usuarios -> Crea un nuevo usuario
+        // CONTROLADOR QUE AÑADE UN USUARIO DESDE EL HOME DEL ADMINISTRADOR
         [HttpPost]
-        public async Task<ActionResult<ClUsuarios>> PostUsuario(ClUsuarios usuario)
+        public async Task<ActionResult<ClUsuarios>> PostUsuario([FromBody] ClUsuarios usuario)
         {
-            // Validar si el email ya existe
+            if (usuario == null)
+            {
+                return BadRequest(new { mensaje = "Datos inválidos" });
+            }
+
+            // Verificar si el email ya existe
             var emailExistente = await _context.Usuarios.AnyAsync(u => u.Email == usuario.Email);
             if (emailExistente)
             {
                 return BadRequest(new { mensaje = "El email ya está en uso" });
             }
 
+            // Asignar valores predeterminados
+            usuario.Estado = false; // Usuario inactivo por defecto
+            usuario.FechaRegistro = DateTime.UtcNow; // Fecha actual en UTC
+
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetUsuario), new { id = usuario.IdUsuario }, usuario);
         }
+
 
         // PUT: api/usuarios/5 -> Actualiza un usuario
         [HttpPut("{id}")]
@@ -100,7 +111,7 @@ namespace APIFinalProyectDAM.Controllers
             _context.Usuarios.Remove(usuario);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return NoContent(); // Retorna 204 No Content, indicando que la eliminación fue exitosa
         }
 
         // Peticion de Login 

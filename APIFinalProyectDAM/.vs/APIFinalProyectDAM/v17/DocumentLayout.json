@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|c:\\users\\pol\\documents\\github\\apifinalproyectdam\\apifinalproyectdam\\apifinalproyectdam\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|solutionrelative:apifinalproyectdam\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|c:\\users\\pol\\documents\\github\\apifinalproyectdam\\apifinalproyectdam\\apifinalproyectdam\\models\\clusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|solutionrelative:apifinalproyectdam\\models\\clusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|c:\\users\\pol\\documents\\github\\apifinalproyectdam\\apifinalproyectdam\\apifinalproyectdam\\data\\cldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|solutionrelative:apifinalproyectdam\\data\\cldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|c:\\users\\pol\\documents\\github\\apifinalproyectdam\\apifinalproyectdam\\apifinalproyectdam\\apifinalproyectdam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|solutionrelative:apifinalproyectdam\\apifinalproyectdam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|c:\\users\\pol\\documents\\github\\apifinalproyectdam\\apifinalproyectdam\\apifinalproyectdam\\models\\clusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|solutionrelative:apifinalproyectdam\\models\\clusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|c:\\users\\pol\\documents\\github\\apifinalproyectdam\\apifinalproyectdam\\apifinalproyectdam\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|solutionrelative:apifinalproyectdam\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB17F2DF-BF6D-41B1-9C4F-AB7B136FA503}|APIFinalProyectDAM\\APIFinalProyectDAM.csproj|c:\\users\\pol\\documents\\github\\apifinalproyectdam\\apifinalproyectdam\\apifinalproyectdam\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,40 +52,27 @@
               "RelativeDocumentMoniker": "APIFinalProyectDAM\\DATA\\ClDbContext.cs",
               "ToolTip": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\DATA\\ClDbContext.cs",
               "RelativeToolTip": "APIFinalProyectDAM\\DATA\\ClDbContext.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAD4vzQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T14:16:02.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "APIFinalProyectDAM\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "APIFinalProyectDAM\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAD4v5EAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwG4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T19:13:54.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "APIFinalProyectDAM.csproj",
-              "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM.csproj",
-              "RelativeDocumentMoniker": "APIFinalProyectDAM\\APIFinalProyectDAM.csproj",
-              "ToolTip": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM.csproj",
-              "RelativeToolTip": "APIFinalProyectDAM\\APIFinalProyectDAM.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-18T19:04:17.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "APIFinalProyectDAM\\Controllers\\WeatherForecastController.cs",
@@ -97,23 +80,25 @@
               "RelativeToolTip": "APIFinalProyectDAM\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T19:03:38.725Z"
+              "WhenOpened": "2025-02-18T19:03:38.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ClUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\MODELS\\ClUsuarios.cs",
               "RelativeDocumentMoniker": "APIFinalProyectDAM\\MODELS\\ClUsuarios.cs",
               "ToolTip": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\MODELS\\ClUsuarios.cs",
               "RelativeToolTip": "APIFinalProyectDAM\\MODELS\\ClUsuarios.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:57:15.22Z"
+              "WhenOpened": "2025-02-18T18:57:15.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "APIFinalProyectDAM\\WeatherForecast.cs",
@@ -125,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\appsettings.json",
               "RelativeDocumentMoniker": "APIFinalProyectDAM\\appsettings.json",
@@ -137,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\Program.cs",
               "RelativeDocumentMoniker": "APIFinalProyectDAM\\Program.cs",
