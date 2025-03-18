@@ -41,7 +41,7 @@ namespace APIFinalProyectDAM.Controllers
         }
 
         // POST: api/usuarios -> Crea un nuevo usuario
-        // CONTROLADOR QUE AÑADE UN USUARIO DESDE EL HOME DEL ADMINISTRADOR
+        // CONTROLADOR QUE AÑADE UN USUARIO
         [HttpPost]
         public async Task<ActionResult<ClUsuarios>> PostUsuario([FromBody] ClUsuarios usuario)
         {
@@ -108,11 +108,25 @@ namespace APIFinalProyectDAM.Controllers
                 return NotFound(new { mensaje = "Usuario no encontrado" });
             }
 
+            // Eliminar todos los registros relacionados con este usuario
+            var fichajes = _context.Fichajes.Where(f => f.IdUsuario == id);
+            var vacaciones = _context.Vacaciones.Where(v => v.IdUsuario == id);
+            var contratos = _context.Contratos.Where(c => c.IdUsuario == id);
+            var nominas = _context.Nominas.Where(n => n.IdUsuario == id);
+
+            _context.Fichajes.RemoveRange(fichajes);
+            _context.Vacaciones.RemoveRange(vacaciones);
+            _context.Contratos.RemoveRange(contratos);
+            _context.Nominas.RemoveRange(nominas);
+
+            // Finalmente, eliminar el usuario
             _context.Usuarios.Remove(usuario);
+
             await _context.SaveChangesAsync();
 
-            return NoContent(); // Retorna 204 No Content, indicando que la eliminación fue exitosa
+            return NoContent(); // 204 No Content, indicando que la eliminación fue exitosa
         }
+
 
         // Peticion de Login 
         public class UserData

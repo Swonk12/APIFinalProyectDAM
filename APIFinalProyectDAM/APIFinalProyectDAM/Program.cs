@@ -1,25 +1,29 @@
 using APIFinalProyectDAM.DATA;
-using Microsoft.EntityFrameworkCore;  // Importa el espacio de nombres de tu DbContext
-
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar la cadena de conexión a SQL Server (ya debe estar en appsettings.json)
+// Configurar la cadena de conexión a SQL Server
 builder.Services.AddDbContext<ClDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); // Asegúrate de que "DefaultConnection" esté configurado correctamente en appsettings.json
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Habilitar CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder => builder.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
 
-
-// Add services to the container.
-
+// Agregar servicios
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -27,6 +31,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Aplicar CORS antes de Authorization
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
