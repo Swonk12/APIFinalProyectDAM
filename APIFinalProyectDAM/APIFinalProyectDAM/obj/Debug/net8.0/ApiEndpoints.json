@@ -1,5 +1,58 @@
 [
   {
+    "ContainingType": "APIFinalProyectDAM.Controllers.FichajesController",
+    "Method": "GetFichajesUsuario",
+    "RelativePath": "api/Fichajes/{idUsuario}/{fecha}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFinalProyectDAM.Controllers.FichajesController",
+    "Method": "FicharEntrada",
+    "RelativePath": "api/Fichajes/entrada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFinalProyectDAM.Controllers.FichajesController",
+    "Method": "FicharSalida",
+    "RelativePath": "api/Fichajes/salida",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "APIFinalProyectDAM.Controllers.UsuariosController",
     "Method": "GetUsuarios",
     "RelativePath": "api/Usuarios",
