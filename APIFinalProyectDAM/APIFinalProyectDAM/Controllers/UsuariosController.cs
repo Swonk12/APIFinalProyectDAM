@@ -160,7 +160,7 @@ namespace APIFinalProyectDAM.Controllers
                     return Unauthorized(new { mensaje = "Credenciales incorrectas" });
                 }
 
-                return Ok(new { id = usuario.IdUsuario, nombre = usuario.Nombre, email = usuario.Email, tipoUsuario = usuario.TipoUsuario });
+                return Ok(new { id = usuario.IdUsuario, nombre = usuario.Nombre, apellido =  usuario.Apellido , email = usuario.Email, tipoUsuario = usuario.TipoUsuario });
             }
             catch (Exception ex)
             {
