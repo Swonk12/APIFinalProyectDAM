@@ -81,21 +81,19 @@ namespace APIFinalProyectDAM.DATA
 
                 entity.HasKey(v => v.IdVacacion);
 
-                entity.Property(v => v.FechaInicio)
+                // La propiedad Fecha es la única ahora
+                entity.Property(v => v.Fecha)
                       .IsRequired();
 
-                entity.Property(v => v.FechaFin)
-                      .IsRequired();
-
-                entity.Property(v => v.Estado)
-                      .HasMaxLength(50)
-                      .HasDefaultValue("Pendiente");
+                // Se eliminan las propiedades FechaInicio, FechaFin y Estado ya que no se usan
+                // y no se requieren configuraciones adicionales para ellas.
 
                 entity.HasOne<ClUsuarios>()
                       .WithMany()
                       .HasForeignKey(v => v.IdUsuario)
                       .OnDelete(DeleteBehavior.Cascade);
             });
+
 
             // Configuración de la tabla Contratos
             modelBuilder.Entity<ClContratos>(entity =>

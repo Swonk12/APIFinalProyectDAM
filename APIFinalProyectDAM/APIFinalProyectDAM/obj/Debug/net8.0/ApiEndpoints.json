@@ -230,6 +230,120 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "APIFinalProyectDAM.Controllers.VacacionesController",
+    "Method": "GetVacaciones",
+    "RelativePath": "api/Vacaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIFinalProyectDAM.MODELS.ClVacaciones, APIFinalProyectDAM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIFinalProyectDAM.Controllers.VacacionesController",
+    "Method": "PostVacacion",
+    "RelativePath": "api/Vacaciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacacion",
+        "Type": "APIFinalProyectDAM.MODELS.ClVacaciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIFinalProyectDAM.MODELS.ClVacaciones",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIFinalProyectDAM.Controllers.VacacionesController",
+    "Method": "DeleteVacacion",
+    "RelativePath": "api/Vacaciones",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFinalProyectDAM.Controllers.VacacionesController",
+    "Method": "PutVacacion",
+    "RelativePath": "api/Vacaciones/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vacacion",
+        "Type": "APIFinalProyectDAM.MODELS.ClVacaciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFinalProyectDAM.Controllers.VacacionesController",
+    "Method": "GetVacacionesByUsuario",
+    "RelativePath": "api/Vacaciones/usuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIFinalProyectDAM.MODELS.ClVacaciones, APIFinalProyectDAM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "APIFinalProyectDAM.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
