@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIFinalProyectDAM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfd0ed201743b37e53b29a9658e4185dc7dcdfae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ad3d30b8e49b5a5852e850c57d9e2f66359e2f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIFinalProyectDAM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIFinalProyectDAM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

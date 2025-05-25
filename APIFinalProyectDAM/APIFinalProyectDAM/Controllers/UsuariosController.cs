@@ -155,7 +155,7 @@ namespace APIFinalProyectDAM.Controllers
 
                 var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == userdata.Email);
 
-                if (usuario == null || usuario.Contrasena != userdata.Contrasena) // ⚠️ Usa hashing en producción
+                if (usuario == null || usuario.Contrasena != userdata.Contrasena)
                 {
                     return Unauthorized(new { mensaje = "Credenciales incorrectas" });
                 }

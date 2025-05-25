@@ -50,37 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\appsettings.json",
-              "RelativeDocumentMoniker": "APIFinalProyectDAM\\appsettings.json",
-              "ToolTip": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\appsettings.json",
-              "RelativeToolTip": "APIFinalProyectDAM\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-10T14:57:53.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\Program.cs",
-              "RelativeDocumentMoniker": "APIFinalProyectDAM\\Program.cs",
-              "ToolTip": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\Program.cs",
-              "RelativeToolTip": "APIFinalProyectDAM\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:56:14.803Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,8 +66,7 @@
               "RelativeToolTip": "APIFinalProyectDAM\\Controllers\\VacacionesController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAkwB8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:51:30.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T14:51:30.41Z"
             },
             {
               "$type": "Document",
@@ -117,8 +90,7 @@
               "RelativeToolTip": "APIFinalProyectDAM\\Controllers\\NominasController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAIwBsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:16:48.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T14:16:48.223Z"
             },
             {
               "$type": "Document",
@@ -142,8 +114,7 @@
               "RelativeToolTip": "APIFinalProyectDAM\\MODELS\\ClVacaciones.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:51:46.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T13:51:46.705Z"
             },
             {
               "$type": "Document",
@@ -165,10 +136,34 @@
               "RelativeDocumentMoniker": "APIFinalProyectDAM\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "APIFinalProyectDAM\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T19:05:25.14Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\Program.cs",
+              "RelativeDocumentMoniker": "APIFinalProyectDAM\\Program.cs",
+              "ToolTip": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\Program.cs",
+              "RelativeToolTip": "APIFinalProyectDAM\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:56:14.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\appsettings.json",
+              "RelativeDocumentMoniker": "APIFinalProyectDAM\\appsettings.json",
+              "ToolTip": "C:\\Users\\Pol\\Documents\\GitHub\\APIFinalProyectDAM\\APIFinalProyectDAM\\APIFinalProyectDAM\\appsettings.json",
+              "RelativeToolTip": "APIFinalProyectDAM\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T14:57:53.575Z"
             },
             {
               "$type": "Document",
@@ -180,8 +175,7 @@
               "RelativeToolTip": "APIFinalProyectDAM\\DATA\\ClDbContext.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAIwJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T19:01:12.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T19:01:12.029Z"
             }
           ]
         }
